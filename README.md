@@ -5,3 +5,5 @@ This app written by using ElectronJS.
 It requires also Node JS.
 
 You can ask and contribute the app, Enjoy :)
+
+![This is how the app looks in macOs](https://github.com/hasanharman/BTC-Trackin-App/blob/master/screenshot.png)
