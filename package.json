@@ -1,5 +1,5 @@
 {
-  "name": "crypto-app",
+  "name": "bitcointracker",
   "product-name": "bitcoin app",
   "version": "1.0.0",
   "main": "main.js",
