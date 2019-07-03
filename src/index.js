@@ -10,9 +10,9 @@ var targetPrice = document.getElementById('targetPrice')
 var targetPriceVal
 
 const notifyBtn2 = document.getElementById('notifyBtn2')
-var price = document.querySelector('h1')
-var targetPrice = document.getElementById('targetPrice2')
-var targetPriceVal2
+var price2 = document.querySelector('#price2')
+var targetPrice2 = document.getElementById('targetPrice2')
+var targetPrice2Val
 
 const notification = {
     title: 'BTC-TRY Alarmı',
@@ -44,7 +44,7 @@ function getBTCusd() {
             const cryptos = res.data.BTC.USD
             price2.innerHTML = '$'+cryptos.toLocaleString('en')
 
-            if (targetPrice2.innerHTML != '' && targetPriceVal2 < res.data.BTC.USD) {
+            if (targetPrice2.innerHTML != '' && targetPrice2Val < res.data.BTC.USD) {
                 const myNotification2 = new window.Notification(notification2.title, notification2)
             }
 
@@ -66,10 +66,10 @@ notifyBtn.addEventListener('click', function(event) {
 })
 
 notifyBtn2.addEventListener('click', function(event) {
-    const modalPath2 = path.join('file://', __dirname, 'add.html')
+    const modalPath = path.join('file://', __dirname, 'add2.html')
     let win = new BrowserWindow({ frame: false, alwaysOnTop: true, width: 400, height: 200})
     win.on('close', function() { win = null })
-    win.loadURL(modalPath2)
+    win.loadURL(modalPath)
     win.show()
 })
 
@@ -78,7 +78,7 @@ ipc.on('targetPriceVal', function (event, arg) {
     targetPrice.innerHTML = '₺'+targetPriceVal.toLocaleString('en')
 })
 
-ipc.on('targetPriceVal2', function (event, arg) {
-    targetPriceVal2 = Number(arg)
-    targetPrice2.innerHTML = '$'+targetPriceVal2.toLocaleString('en')
+ipc.on('targetPrice2Val', function (event, arg) {
+    targetPrice2Val = Number(arg)
+    targetPrice2.innerHTML = '$'+targetPrice2Val.toLocaleString('en')
 })

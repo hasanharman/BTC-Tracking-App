@@ -84,3 +84,7 @@ app.on('activate', () => {
 ipc.on('update-notify-value', function(event, arg) {
   win.webContents.send('targetPriceVal', arg)
 })
+
+ipc.on('update-notify-value2', function(event, arg) {
+  win.webContents.send('targetPrice2Val', arg)
+})

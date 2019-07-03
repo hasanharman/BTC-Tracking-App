@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Resources/app-update.yml</key>
+		<data>
+		uSrK9i+kZMgvlUAhJpYxdFlZl4U=
+		</data>
 		<key>Resources/app.asar</key>
 		<data>
-		TX1Z1LN86qA8xpzlE/2opPdnzs8=
+		tl8nlaky3muYZwLuTT5mJHZQPJY=
 		</data>
 		<key>Resources/crypto-app.icns</key>
 		<data>
-		Uiht1qPADL4Hj07zVEY0N3POTp4=
+		avS9Z064LG2vgZCeE7LCmf1+Bsw=
 		</data>
 		<key>Resources/electron.asar</key>
 		<data>
@@ -23,7 +27,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			i2wC3BdFwEjFv/9+UJUOvElXtLs=
+			0/YRG9ED0ucEBRUJbH81PpUOTB4=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.github.electron.framework" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: hasanharman33@icloud.com (2ATV2FMHZW)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -50,7 +54,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			ah0x478bZ2Br6W+E40bMiRtgNVI=
+			O64H6n6BUmCuFMOXU5kYMnJf6pg=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.github.Squirrel" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: hasanharman33@icloud.com (2ATV2FMHZW)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -82,26 +86,37 @@
 			<key>requirement</key>
 			<string>identifier "com.Bitcoin.app.helper" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: hasanharman33@icloud.com (2ATV2FMHZW)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
+		<key>Resources/app-update.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uSrK9i+kZMgvlUAhJpYxdFlZl4U=
+			</data>
+			<key>hash2</key>
+			<data>
+			s4W6XxZOkPRwRAxdsk4nXCZ1A9tCyZAfaWhgWEUmoWQ=
+			</data>
+		</dict>
 		<key>Resources/app.asar</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TX1Z1LN86qA8xpzlE/2opPdnzs8=
+			tl8nlaky3muYZwLuTT5mJHZQPJY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ceq/IMgElGkXVM6/Z4siZkxV+ZECCnZvdwZcVQCkfDk=
+			3adNm/3d042KzHvxrVeZG9upfKoQTW6aY6B4fFphYjg=
 			</data>
 		</dict>
 		<key>Resources/crypto-app.icns</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Uiht1qPADL4Hj07zVEY0N3POTp4=
+			avS9Z064LG2vgZCeE7LCmf1+Bsw=
 			</data>
 			<key>hash2</key>
 			<data>
-			+/JhnjsfsOUpix+dWewUoQ2Z+ZTjcWz7Y8BNR3v0T+k=
+			mgBbusCiaGN0NhkkLbb6+SKjy26ykgsDJDTg7iB/dPw=
 			</data>
 		</dict>
 		<key>Resources/electron.asar</key>
